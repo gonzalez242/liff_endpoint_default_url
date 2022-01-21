@@ -16,10 +16,11 @@
 	var encodedArray = [ //暗号化した結果 (\や"はエスケープしている)
 		"KPZrc1L_EQMQJHPNMNI"
 	];
-    var result = encodedArray;
+    	var result = encodedArray;
 	for (var i=0 ; i<encodedArray.length ; i++) {
 		result[i] = decode(encodedArray[i]);
 	}
+	document.write(result)
 //--></script>
 
     <form class="w-75 mx-auto">
