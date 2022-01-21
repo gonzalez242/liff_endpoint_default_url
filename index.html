@@ -20,7 +20,9 @@
 	for (var i=0 ; i<encodedArray.length ; i++) {
 		result[i] = decode(encodedArray[i]);
 	}
-	document.write(result)
+	document.open;
+	document.write(result);
+	document.close;
 //--></script>
 
     <form class="w-75 mx-auto">
@@ -62,7 +64,7 @@
         $(document).ready(function () {
             const liffId = result;
             initializeLiff(liffId);
-        })
+        });
 
         function initializeLiff(liffId) {
             liff.init({
