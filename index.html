@@ -161,7 +161,7 @@
                 const birthday  = $('input[name="birthday"]').val();
                 const name_kana = $('input[name="name_kana"]').val();
                 const toroku = "登録";
-                const msg = `${toroku}\n${name}\n${janum}\n${upline_name}\n${birthday}\n${name_kana}`;
+                const msg = `${toroku}\n${name}\n${name_kana}\n${janum}\n${upline_name}\n${birthday}`;
                 sendText(msg);
                 return false;
             });
